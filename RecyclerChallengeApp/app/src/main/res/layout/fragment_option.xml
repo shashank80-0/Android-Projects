@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".optionFrag">
+
+
+    <Button
+        android:id="@+id/btnOwner"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/owner_info"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCar"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/car_info"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

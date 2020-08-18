@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/contacts_app"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imgFace"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/face"
+            app:srcCompat="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/imgPhone"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:contentDescription="@string/phone"
+            android:focusable="true"
+            app:srcCompat="@drawable/phone" />
+
+        <ImageView
+            android:id="@+id/imgWeb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:contentDescription="@string/web"
+            android:focusable="true"
+            app:srcCompat="@drawable/web" />
+
+        <ImageView
+            android:id="@+id/imgLocation"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:contentDescription="@string/location"
+            android:focusable="true"
+            app:srcCompat="@drawable/location" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:filterTouchesWhenObscured="false"
+        android:fitsSystemWindows="false"
+        android:text="@string/create_new_contact"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

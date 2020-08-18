@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="product_heading">Products</string>
+    <string name="product">Product</string>
+    <string name="textview">TextView</string>
+    <string name="sale">sale</string>
+</resources>

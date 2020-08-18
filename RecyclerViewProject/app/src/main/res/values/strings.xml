@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewProject</string>
+    <string name="firstname">Firstname</string>
+    <string name="surname">Surname</string>
+    <string name="preference">Preference</string>
+    <string name="add_stanley">Add Stanley</string>
+</resources>

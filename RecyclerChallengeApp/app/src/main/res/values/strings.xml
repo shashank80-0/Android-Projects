@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecyclerChallengeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="owner_info">OWNER INFO</string>
+    <string name="car_info">CAR INFO</string>
+    <string name="owner_information">Owner Information</string>
+    <string name="textview">TextView</string>
+    <string name="make">Make</string>
+</resources>

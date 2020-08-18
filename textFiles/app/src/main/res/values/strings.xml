@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">textFiles</string>
+    <string name="save_data_to_file">SAVE DATA TO FILE</string>
+    <string name="add">ADD</string>
+    <string name="name">Name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="textview">TextView</string>
+</resources>
